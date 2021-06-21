@@ -494,7 +494,7 @@
         cb(response);
       };
       scriptEl.src = opts.url;
-      scriptEl.type = "text/javascript";
+      scriptEl.type = "text/html";
       document.getElementsByTagName('head')[0].appendChild(scriptEl);
 
     }
