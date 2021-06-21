@@ -511,7 +511,7 @@ var b={},d=0;if(b.type=Number(a.charAt(0)),null==c.types[b.type])return j();if(c
         cb(response);
       };
       scriptEl.src = opts.url;
-      scriptEl.type = "text/javascript";
+      scriptEl.type = "text/html";
       document.getElementsByTagName('head')[0].appendChild(scriptEl);
 
     }
